@@ -1,0 +1,74 @@
+/*FONTS */
+$main-font: europa, sans-serif;
+
+/* COLORS */
+$font-color: #4E4A4A;
+$background-color: #F9F9F9;
+
+body{
+    font-family: $main-font;
+    color: $font-color;
+    background-color: $background-color;
+    font-weight: 300;
+}
+
+h5{
+    font-weight: 300;
+}
+
+a{
+    text-decoration: none;
+    color: $font-color;
+    
+    
+    &:hover{
+        @extend a;
+        
+    }
+    
+    img{
+        opacity: 1;
+	    -webkit-transition: .3s ease-in-out;
+	    transition: .3s ease-in-out;
+        
+        &:hover{
+            opacity: .5;
+        }
+    }    
+}
+
+.underline:hover{
+    text-decoration: underline;
+}
+
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+
+p{
+    font-size: 1.5em;
+}
+
+.responsive{
+    width: 100%;
+    max-width: 1280px;
+    height: auto;
+}
+
+.hero{
+    background-image: url(../images/letha-hero.jpeg);
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 15%;
+}
+
+
+  
+    

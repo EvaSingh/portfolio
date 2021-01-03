@@ -1,0 +1,81 @@
+.container, .container-fluid {
+  margin-bottom: 100px;
+}
+
+nav .container, nav .container-fluid {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.row {
+  margin-bottom: 10px;
+}
+
+.project {
+  max-width: 300px;
+  margin-bottom: 100px;
+}
+
+.project__image {
+  max-width: 300px;
+}
+
+/*FONTS */
+/* COLORS */
+body {
+  font-family: europa, sans-serif;
+  color: #4E4A4A;
+  background-color: #F9F9F9;
+  font-weight: 300;
+}
+
+h5 {
+  font-weight: 300;
+}
+
+a, a:hover {
+  text-decoration: none;
+  color: #4E4A4A;
+}
+a img, a:hover img {
+  opacity: 1;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+a img:hover {
+  opacity: 0.5;
+}
+
+.underline:hover {
+  text-decoration: underline;
+}
+
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+.responsive {
+  width: 100%;
+  max-width: 1280px;
+  height: auto;
+}
+
+.hero {
+  background-image: url(../images/letha-hero.jpeg);
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 15%;
+}
+
+/*# sourceMappingURL=styles.css.map */

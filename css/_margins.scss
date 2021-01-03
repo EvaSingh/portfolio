@@ -1,0 +1,39 @@
+$margin-sm: 10px;
+$margin-md: 15px;
+$margin-lg: 20px;
+$margin-xl: 100px;
+
+
+html{
+   
+}
+.container{
+    margin-bottom: $margin-xl;
+    
+
+}
+
+nav .container{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.row{
+    margin-bottom: $margin-sm;
+}
+
+.container-fluid{
+    @extend .container;
+}
+
+.project{
+    max-width: 300px;
+    margin-bottom: $margin-xl;
+}
+
+.project__image{
+    max-width: 300px;
+}
+
+
+
