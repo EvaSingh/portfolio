@@ -1,8 +1,7 @@
 [
-{"id":1,"name":"Website for Bike Tours Trondheim","image":"images/bike-tours_trondheim.jpg","url":"recycle.html"},
+{"id":1,"name":"Website for Bike Tours Trondheim","image":"images/recycle.jpg","url":"recycle.html"},
 {"id":2,"name":"Style tile for Red Pepper Pizza","image":"images/rpp.jpg","url":"rpp.html"},
 {"id":3,"name":"Website for Deco Deco","image":"images/deco-deco.jpg","url":"decodeco.html"},
-{"id":4,"name":"Icon design for a restaurant","image":"images/icons.jpg","url":"icons.html"},
-{"id":5,"name":"Website for Letha","image":"images/letha.jpg","url":"letha.html"},
-{"id":6,"name":"NASA Microsite","image":"images/nasa.jpg","url":"nasa.html"}
+{"id":4,"name":"Website for Letha","image":"images/letha.jpg","url":"letha.html"},
+{"id":5,"name":"NASA Microsite","image":"images/nasa.jpg","url":"nasa.html"}
 ]

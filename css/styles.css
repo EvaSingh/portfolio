@@ -69,8 +69,44 @@ p {
   height: auto;
 }
 
-.hero {
+.letha-hero {
   background-image: url(../images/letha-hero.jpeg);
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 15%;
+}
+
+.nasa-hero {
+  background-image: url(../images/nasa-hero.jpeg);
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 15%;
+}
+
+.deco-hero {
+  background-image: url(../images/decodeco-hero.jpg);
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 15%;
+}
+
+.recycle-hero {
+  background-image: url(../images/recycle-hero.jpg);
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 15%;
+}
+
+.rpp-hero {
+  background-image: url(../images/rpp-hero.jpeg);
   height: auto;
   background-repeat: no-repeat;
   background-size: cover;

@@ -20,10 +20,8 @@ a{
     text-decoration: none;
     color: $font-color;
     
-    
     &:hover{
-        @extend a;
-        
+        @extend a;    
     }
     
     img{
@@ -54,20 +52,9 @@ p{
     font-size: 1.5em;
 }
 
-.responsive{
-    width: 100%;
-    max-width: 1280px;
-    height: auto;
-}
 
-.hero{
-    background-image: url(../images/letha-hero.jpeg);
-    height: auto;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    padding: 15%;
-}
+
+
 
 
   
